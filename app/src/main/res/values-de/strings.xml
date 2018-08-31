@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Passwort Generator</string>
+    <string name="property_text">Passworteigenschaften:</string>
+    <string name="cb_lower_case">Kleinbuchstaben</string>
+    <string name="cb_upper_case">Großbuchstaben</string>
+    <string name="cb_numbers_text">Nummern</string>
+    <string name="cb_special_text">Sonderzeichen</string>
+    <string name="generate_text">Erzeugen</string>
+    <string name="set_password_length_text">Passwortlänge:</string>
+    <string name="generated_password_text">Erzeugtes Passwort:</string>
+    <string name="copy_btn">Kopieren</string>
+    <string name="pw_text_hint">dein Passwort</string>
+    <string name="pw_length">0</string>
+    <string name="copyText">Passwort in Zwischenablage kopiert!</string>
+    <string name="generatePwToast">Erzeuge dein Passwort ...</string>
+</resources>
