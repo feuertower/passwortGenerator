@@ -12,13 +12,12 @@
     <color name="colorHint">#882222</color>
     <color name="colorEditText">#AA4444</color>
 
-    <color name="colorText">#FFFFFF</color>
+    <color name="colorText">#222222</color>
     <color name="colorTextBackground">#A4A4A4</color>
     <color name="colorTextShadow">#848484</color>
 
-    <color name="colorButtonBackground">#A4A4A4</color>
-    <color name="colorButtonAccent">#686868</color>
-    <color name="colorButtonStroke">#444444</color>
+    <color name="colorButtonBackground">#AA5555</color>
+    <color name="colorButtonStroke">#AA4444</color>
 
     <color name="colorShadow">#222222</color>
 </resources>

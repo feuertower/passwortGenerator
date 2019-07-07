@@ -3,10 +3,10 @@ package com.dominik.passwortgenerator;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.Switch;
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.new_password);
 
         lowerAlphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         upperAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
@@ -265,5 +265,12 @@ public class MainActivity extends AppCompatActivity {
                 onCopyClicked();
                 break;
         }
+    }
+
+    public void onBackPressed() {
+
+        Intent intent = new Intent(MainActivity.this, startScreen.class);
+        startActivity( intent );
+        finish();
     }
 }

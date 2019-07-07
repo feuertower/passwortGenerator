@@ -21,13 +21,6 @@
 
     <solid android:color="@color/colorButtonBackground" />
 
-    <gradient
-        android:startColor="@color/colorButtonBackground"
-        android:centerColor="@color/colorButtonBackground"
-        android:endColor="@color/colorButtonAccent"
-        android:angle="-90"
-        android:type="linear"
-        />
 
 </shape>
 

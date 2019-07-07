@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".startScreen">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_str"
+            android:textColor="@color/colorShadow"
+            android:textSize="20dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            />
+
+
+            <Button
+                android:id="@+id/btnNewPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/pw_gen_btn"
+                android:background="@drawable/button_custom"
+                android:layout_below="@id/welcomeText"
+                android:layout_centerInParent="true"
+                android:onClick="clickHandler"/>
+
+            <Button
+                android:id="@+id/showPasswords"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_pw"
+                android:background="@drawable/button_custom"
+                android:layout_below="@id/btnNewPassword"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:onClick="clickHandler" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
