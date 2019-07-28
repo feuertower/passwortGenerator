@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekbar, int progress, boolean b) {
                 TextView textview = findViewById(R.id.pwLength);
                 textview.setText(String.valueOf(progress+seekBarOffset));
-
-                setXPwLengthShown(seekbar);
             }
 
             @Override
@@ -59,14 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
         seekbar.setProgress(5);
-    }
-
-    void setXPwLengthShown(SeekBar seekbar){
-
-        float width = seekbar.getWidth() - seekbar.getPaddingLeft() - seekbar.getPaddingRight();
-        float thumbPos = seekbar.getPaddingLeft() + width * seekbar.getProgress()/ seekbar.getMax() - pwLengthShown.getWidth()/2;
-
-        pwLengthShown.setX(thumbPos);
     }
 
     void generateLower(int length, StringBuilder strBuilder) {

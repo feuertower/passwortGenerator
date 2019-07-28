@@ -24,5 +24,6 @@
     <string name="pw_length">0</string>
     <string name="copyText">Passwort in Zwischenablage kopiert!</string>
     <string name="generatePwToast">Erzeuge dein Passwort ...</string>
+    <string name="enter_app_pw">Gebe dein Passwort ein</string>
 
 </resources>
