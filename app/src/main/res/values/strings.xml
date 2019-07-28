@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">Passwort Generator</string>
     <string name="property_text">Choose your properties:</string>
@@ -14,3 +15,33 @@
     <string name="copyText">Password added to clipboard!</string>
     <string name="generatePwToast">Generating your password ...</string>
 </resources>
+=======
+<resources>
+    // main
+    <string name="app_name">Passwort Manager</string>
+
+    // startScreen :
+    <string name="welcome_str">Welcome to Password Manager!</string>
+    <string name="pw_gen_btn">New Entry</string>
+    <string name="show_pw">Show Passwords</string>
+    <string name="double_press_back">Press back twice to close!</string>
+
+
+    // mainActivity:
+    <string name="name">Username:</string>
+    <string name="password_text">Password:</string>
+    <string name="cb_lower_case">lower case letters</string>
+    <string name="cb_upper_case">upper case letters</string>
+    <string name="cb_numbers_text">numbers</string>
+    <string name="cb_special_text">special</string>
+    <string name="generate_text">Generate</string>
+    <string name="set_password_length_text">Length:</string>
+    <string name="generated_password_text">Generated password:</string>
+    <string name="copy_btn">Copy</string>
+    <string name="pw_text_hint">your password</string>
+    <string name="pw_length">0</string>
+    <string name="copyText">Password added to clipboard!</string>
+    <string name="generatePwToast">Generating your password ...</string>
+    <string name="enter_app_pw">Enter your Password</string>
+</resources>
+>>>>>>> develop

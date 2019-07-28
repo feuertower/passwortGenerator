@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
     <corners android:radius="14dp"/>
@@ -31,3 +32,34 @@
 
 </shape>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="14dp"/>
+
+    <size
+        android:height="60dp"
+        android:width="150dp"
+        />
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorButtonStroke"
+        />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp"
+        />
+
+    <solid
+        android:color="@color/colorButtonBackground"
+        android:alpha="0"
+        />
+
+
+</shape>
+
+>>>>>>> develop

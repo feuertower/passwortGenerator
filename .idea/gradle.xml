@@ -8,6 +8,15 @@
         </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
+        <option name="modules">
+          <set>
+            <option value="/media/dominik/3538-6134/Dokumente/programmieren/Android/tmpPWGen/passwortGenerator" />
+            <option value="/media/dominik/3538-6134/Dokumente/programmieren/Android/tmpPWGen/passwortGenerator/app" />
+          </set>
+        </option>
+>>>>>>> develop
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
