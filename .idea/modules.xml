@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///media/dominik/3538-6134/Dokumente/programmieren/Android/tmpPWGen/passwortGenerator/app/app.iml" filepath="/media/dominik/3538-6134/Dokumente/programmieren/Android/tmpPWGen/passwortGenerator/app/app.iml" />
-      <module fileurl="file:///media/dominik/3538-6134/Dokumente/programmieren/Android/tmpPWGen/passwortGenerator/passwortGenerator.iml" filepath="/media/dominik/3538-6134/Dokumente/programmieren/Android/tmpPWGen/passwortGenerator/passwortGenerator.iml" />
+      <module fileurl="file:///media/dominik/3538-6134/Dokumente/programmieren/Android/passwortGenerator/passwortGenerator.iml" filepath="/media/dominik/3538-6134/Dokumente/programmieren/Android/passwortGenerator/passwortGenerator.iml" />
     </modules>
   </component>
 </project>
